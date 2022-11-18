@@ -1,0 +1,44 @@
+/* Universal selector */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+/* Class selector */
+.title {
+    text-align: center;
+    border: 7px solid darkgreen; /* color */
+    color: red; /* color */
+    padding: 40px;
+    background-color: black; /* color */
+
+}
+/* element selector */
+body {
+    background-color: gray; /* color */
+}
+.sub-heading {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    border: 30px solid aquamarine;
+    background-color: aquamarine;
+    text-align: left;
+
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    padding: 8px;
+    border: 10px solid blue
+}
+
